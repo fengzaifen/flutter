@@ -61,7 +61,8 @@ class _RoomApplianceState extends State<RoomAppliance> {
                     child: Column(
                       children: [
                         Icon(
-                          IconData(e.iconPoint, fontFamily: Config.CommonIcon),
+                          // IconData(e.iconPoint, fontFamily: Config.CommonIcon),
+                          Icons.ac_unit_outlined,
                           size: 40.0,
                         ),
                         Padding(
@@ -110,8 +111,8 @@ class _RoomApplianceListState extends State<RoomApplianceList> {
                       child: Column(children: <Widget>[
                         Icon(
                             //字体图标的使用
-                            IconData(item.iconPoint,
-                                fontFamily: Config.CommonIcon),
+                            // IconData(item.iconPoint, fontFamily: Config.CommonIcon),
+                            Icons.ac_unit_outlined,
                             size: 40.0),
                         Padding(
                           padding: EdgeInsets.all(10.0),
